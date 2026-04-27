@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "Welcome to RedwoodSDK",
+    "subtitle": "You’ve just installed the starter project. Here’s what to do next."
+  },
+  "sections": {
+    "nextSteps": {
+      "title": "Next steps",
+      "items": [
+        {
+          "label": "Read the Quick Start to learn the basics.",
+          "href": "https://docs.rwsdk.com/getting-started/quick-start/"
+        },
+        {
+          "label": "Explore React Server Components and Server Functions in the Docs.",
+          "href": "https://docs.rwsdk.com/"
+        },
+        {
+          "label": "Join the community to ask questions and share what you’re building."
+        }
+      ]
+    },
+    "deploy": {
+      "title": "Deploy to Cloudflare",
+      "description": "RedwoodSDK runs on Cloudflare Workers. Here’s the quickest way to deploy.",
+      "command": "pnpm release",
+      "moreInfoLabel": "Cloudflare deployment guide",
+      "moreInfoHref": "https://docs.rwsdk.com/core/hosting/"
+    }
+  },
+  "actions": {
+    "language": "Language",
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English",
+    "copy": "Copy",
+    "copied": "Copied!"
+  }
+}

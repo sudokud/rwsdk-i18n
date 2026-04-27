@@ -65,3 +65,8 @@ coverage
 
 # Wrangler
 .wrangler
+
+article.md
+# i18n-guide.md
+# AI helpers
+generated-guide.md

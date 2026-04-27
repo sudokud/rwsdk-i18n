@@ -4,7 +4,6 @@
 * _Feel free to delete this file_
 **/
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
   --color-baige: #f4eedf;
@@ -34,6 +33,40 @@ body {
 
 .header {
   margin-bottom: 4rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.localeBadge {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.languageSwitch button {
+  background-color: transparent;
+  color: var(--text-color);
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.languageSwitch button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.languageSwitch button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .title {

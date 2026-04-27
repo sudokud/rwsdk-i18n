@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "مرحباً بك في RedwoodSDK",
+    "subtitle": "لقد ثبّت مشروع البداية للتو. إليك ما يمكنك فعله بعد ذلك."
+  },
+  "sections": {
+    "nextSteps": {
+      "title": "الخطوات التالية",
+      "items": [
+        {
+          "label": "اقرأ دليل البداية السريعة لتتعرف على الأساسيات.",
+          "href": "https://docs.rwsdk.com/getting-started/quick-start/"
+        },
+        {
+          "label": "استكشف React Server Components و Server Functions في التوثيق.",
+          "href": "https://docs.rwsdk.com/"
+        },
+        {
+          "label": "انضم إلى المجتمع لطرح الأسئلة ومشاركة ما تبنيه."
+        }
+      ]
+    },
+    "deploy": {
+      "title": "النشر على Cloudflare",
+      "description": "يعمل RedwoodSDK على Cloudflare Workers. هذه أسرع طريقة للنشر.",
+      "command": "pnpm release",
+      "moreInfoLabel": "دليل النشر على Cloudflare",
+      "moreInfoHref": "https://docs.rwsdk.com/core/hosting/"
+    }
+  },
+  "actions": {
+    "language": "اللغة",
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English",
+    "copy": "نسخ",
+    "copied": "تم النسخ"
+  }
+}
