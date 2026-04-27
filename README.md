@@ -2,6 +2,9 @@
 
 This app show how to add i18n to RedwoodSDK on cloudflare.
 
+## live demo
+
+ [https://rwsdk-i18n-demo.chetouihamza.workers.dev](https://rwsdk-i18n-demo.chetouihamza.workers.dev/)
 
 Create your new project:
 
